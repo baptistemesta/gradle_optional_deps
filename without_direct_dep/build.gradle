@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation "org.hibernate:hibernate-core:5.4.32.Final"
+}
